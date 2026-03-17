@@ -38,32 +38,31 @@ def start_panel(_):
     return buttons
 
 def private_panel(_):
-    buttons = [
+    return [
         [
             InlineKeyboardButton(
-                text=_["S_B_3"],
+                text="➕ Add Me",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_11"],
-                callback_data="about_page"
+                text="📢 Support",
+                url="https://t.me/OTP_SUPPORT00"
             ),
             InlineKeyboardButton(
-                text=_["S_B_12"],
-                callback_data="owner_page"
+                text="👑 Owner",
+                url="https://t.me/yourx_titan"
             )
         ],
         [
-            InlineKeyboardButton(text=_["S_B_5"], user_id=config.OWNER_ID),
-        ],
-        [
-            InlineKeyboardButton(text=_["S_B_4"], callback_data="help_page_1")
+            InlineKeyboardButton(
+                text="❓ Help",
+                callback_data="help_page_1"
+            )
         ],
     ]
-    return buttons
-
+    
 def about_panel(_):
     buttons = [
         [

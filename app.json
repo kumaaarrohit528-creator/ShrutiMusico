@@ -37,25 +37,10 @@
       "value": "7574330905",
       "required": true
     },
-    "BOT_USERNAME": {
-      "description": "The username of your bot (without @)",
-      "value": "ShrutixMusicBot",
-      "required": true
-    },
-    "UPSTREAM_REPO": {
-      "description": "URL of your GitHub repository",
-      "value": "https://github.com/NoxxOP/ShrutiMusic",
-      "required": false
-    },
     "STRING_SESSION": {
       "description": "A Pyrogram v2 String Session from Replit.",
       "value": "",
       "required": true
-    },
-    "GIT_TOKEN": {
-      "description": "Your GitHub personal access token (if needed for private repos)",
-      "value": "",
-      "required": false
     },
     "HEROKU_API_KEY": {
       "description": "Your Heroku account's API key",
@@ -82,26 +67,7 @@
       "value": "https://t.me/ShrutiBots",
       "required": false
     },
-    "INSTAGRAM": {
-      "description": "Your Instagram profile link or Any Link",
-      "value": "https://instagram.com/yaduwanshi_nand",
-      "required": false
-    },
-    "YOUTUBE": {
-      "description": "Your YouTube channel link or Any Link",
-      "value": "https://youtube.com/@NandEditz",
-      "required": false
-    },
-    "GITHUB": {
-      "description": "Your GitHub profile link or Any Link",
-      "value": "https://github.com/NoxxOP",
-      "required": false
-    },
-    "DONATE": {
-      "description": "Link where people can support/donate or Any Link",
-      "value": "http://bit.ly/3NITa3G",
-      "required": false
-    },
+    
     "START_IMG_URL": {
       "description": "Image that appears with the /start command",
       "value": "https://graph.org/file/e054e63251ef2dc5729dd-6f719a9ecc59862631.png",
